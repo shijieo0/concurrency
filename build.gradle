@@ -46,7 +46,7 @@ repositories {
 dependencies {
 	// 该依赖用于编译阶段
 	compile('org.springframework.boot:spring-boot-starter')
-	compileOnly('org.projectlombok:lombok')
+    compile('org.springframework.boot:spring-boot-starter-web')
 
 	// 该依赖用于测试阶段
 	testCompile('org.springframework.boot:spring-boot-starter-test')
